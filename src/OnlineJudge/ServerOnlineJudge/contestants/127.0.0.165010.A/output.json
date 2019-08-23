@@ -1,0 +1,156 @@
+[
+  {
+    "name": "control.Controller",
+    "_package": "control",
+    "fields": [
+      {
+        "name": "dsST",
+        "type": "java.util.ArrayList",
+        "modifier": "private"
+      }
+    ],
+    "methods": [
+      {
+        "modifier": "public",
+        "name": "addStudent",
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "arg0",
+            "type": "model.Student"
+          }
+        ]
+      },
+      {
+        "modifier": "public",
+        "name": "changeStudent",
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "arg0",
+            "type": "java.lang.String"
+          },
+          {
+            "name": "arg1",
+            "type": "float"
+          },
+          {
+            "name": "arg2",
+            "type": "float"
+          },
+          {
+            "name": "arg3",
+            "type": "float"
+          }
+        ]
+      },
+      {
+        "modifier": "public",
+        "name": "getBestStudent",
+        "returnType": "java.lang.String",
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "name": "model.Student",
+    "_package": "model",
+    "fields": [
+      {
+        "name": "id",
+        "type": "java.lang.String",
+        "modifier": "private"
+      },
+      {
+        "name": "name",
+        "type": "java.lang.String",
+        "modifier": "private"
+      },
+      {
+        "name": "grade",
+        "type": "java.lang.String",
+        "modifier": "private"
+      },
+      {
+        "name": "toan",
+        "type": "float",
+        "modifier": "private"
+      },
+      {
+        "name": "van",
+        "type": "float",
+        "modifier": "private"
+      },
+      {
+        "name": "anh",
+        "type": "float",
+        "modifier": "private"
+      }
+    ],
+    "methods": [
+      {
+        "modifier": "public",
+        "name": "getId",
+        "returnType": "java.lang.String",
+        "parameters": []
+      },
+      {
+        "modifier": "public",
+        "name": "setVan",
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "arg0",
+            "type": "float"
+          }
+        ]
+      },
+      {
+        "modifier": "public",
+        "name": "setToan",
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "arg0",
+            "type": "float"
+          }
+        ]
+      },
+      {
+        "modifier": "public",
+        "name": "setAnh",
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "arg0",
+            "type": "float"
+          }
+        ]
+      },
+      {
+        "modifier": "public",
+        "name": "getTB",
+        "returnType": "float",
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "name": "solve.Main",
+    "_package": "solve",
+    "fields": [],
+    "methods": [
+      {
+        "modifier": "",
+        "name": "main",
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "arg0",
+            "type": "[Ljava.lang.String;"
+          }
+        ]
+      }
+    ]
+  }
+]

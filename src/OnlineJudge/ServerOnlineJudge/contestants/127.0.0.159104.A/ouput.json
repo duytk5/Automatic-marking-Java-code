@@ -1,0 +1,141 @@
+[
+  {
+    "name": "model.Student",
+    "_package": "model",
+    "fields": [
+      {
+        "name": "code",
+        "type": "java.lang.String",
+        "modifier": "private"
+      },
+      {
+        "name": "name",
+        "type": "java.lang.String",
+        "modifier": "private"
+      }
+    ],
+    "methods": [
+      {
+        "modifier": "public",
+        "name": "getName",
+        "returnType": "java.lang.String",
+        "parameters": []
+      },
+      {
+        "modifier": "public",
+        "name": "setName",
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "arg0",
+            "type": "java.lang.String"
+          }
+        ]
+      },
+      {
+        "modifier": "public",
+        "name": "setCode",
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "arg0",
+            "type": "java.lang.String"
+          }
+        ]
+      },
+      {
+        "modifier": "public",
+        "name": "getCode",
+        "returnType": "java.lang.String",
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "name": "solve.A",
+    "_package": "solve",
+    "fields": [
+      {
+        "name": "a",
+        "type": "java.math.BigInteger",
+        "modifier": "private"
+      },
+      {
+        "name": "b",
+        "type": "java.math.BigInteger",
+        "modifier": "private"
+      }
+    ],
+    "methods": [
+      {
+        "modifier": "",
+        "name": "main",
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "arg0",
+            "type": "[Ljava.lang.String;"
+          }
+        ]
+      },
+      {
+        "modifier": "public",
+        "name": "setA",
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "arg0",
+            "type": "java.math.BigInteger"
+          }
+        ]
+      },
+      {
+        "modifier": "public",
+        "name": "setB",
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "arg0",
+            "type": "java.math.BigInteger"
+          }
+        ]
+      },
+      {
+        "modifier": "public",
+        "name": "tong",
+        "returnType": "void",
+        "parameters": []
+      },
+      {
+        "modifier": "public",
+        "name": "getB",
+        "returnType": "java.math.BigInteger",
+        "parameters": []
+      },
+      {
+        "modifier": "public",
+        "name": "hieu",
+        "returnType": "void",
+        "parameters": []
+      },
+      {
+        "modifier": "public",
+        "name": "getA",
+        "returnType": "java.math.BigInteger",
+        "parameters": []
+      },
+      {
+        "modifier": "public",
+        "name": "tich",
+        "returnType": "void",
+        "parameters": []
+      },
+      {
+        "modifier": "private",
+        "name": "solve",
+        "returnType": "void",
+        "parameters": []
+      }
+    ]
+  }
+]
